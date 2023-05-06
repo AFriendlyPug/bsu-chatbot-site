@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>SkillsBuild Chatbot</title>
+    </head>
+    <body>
+        <header>
+            <a class="title" href="index.html">SkillsBuild Chatbot</a>
+            <div class="burger-container">
+                <div class="burger" id="burger" onclick="openBurger(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+
+            <ul class="full-header nav-highlight">
+                <li><a href="#Chatbot">Chatbot</a></li>
+                <li><a href="#Howitsmade">How it's made</a></li>
+                <li><a href="#Links">Links</a></li>
+            </ul>
+        </header>
+
+        <div class="mob-nav closed nav-highlight" id="mob-nav">
+            <ul>
+                <li><a href="#Chatbot">Chatbot</a></li>
+                <li><a href="#Howitsmade">How it's made</a></li>
+                <li><a href="#Links">Links</a></li>
+            </ul>
+        </div>
+
+        <button onclick="returnToTop()" id="topBtn" title="Go to top">⬆</button>
+
+        <main>
+            <h2 class="subtitle">Unlock Your Future With IBM SkillsBuild!</h2>
+            <section>
+                <div class="main-container">
+                    <div class="logo-container">
+                        <img src="imgs/bsu-logo.png" alt="" class="logo">
+                        <img src="imgs/ibm-logo.svg" alt="" class="logo">
+                    </div>
+                    <h1 id="Chatbot">Chatbot</h1>
+                    <a href="#" target="_blank" class="chatnow">Chat Now</a>
+                    <div class="content-container">
+                        <div class="text-card chatbot">
+                            <h3>Understanding the Latest Tech</h3>
+                            <p>Welcome to the IBM SkillsBuild Chatbot. This is our AI guide can help you understand the latest emerging technologies and how they will impact the future of work. Our guide is designed to provide you with an introduction to topics such as IBM's Watson (AI), IBM's Data Science, IBM's Automation, IBM's Digital Security, and IBM's Engineering. With our guide, you’ll gain a better understanding of the new technologies and how they will be used in the workplace.</p>
+                        </div>
+                        <img src="imgs/understandingtechno.jpg" class="img-side">
+                    </div>
+                    <div class="content-container middle">
+                        <img src="imgs/ibmskillsbuildchatbotimg.jpg" class="img-side">
+                        <div class="text-card chatbot">
+                            <h3>IBM SkillsBuild Chatbot</h3>
+                            <p>This chatbot has been created through a collaboration between IBM and Bath Spa University. It is designed to help students explore the courses available from IBM SkillsBuild in order that they can choose the right course for their needs and future career development through an question and answer process that refines the recommended courses for them.  These recommendations are based on the student's current level of understanding and topics that they may have an interest in.<br><br>
+                            IBM's Node Red and IBM's Watson AI are the core software on which this chatbot has been created. It hosted on IBM's cloud computing service.</p>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <div class="text-card chatbot">
+                            <h3>Start Your Journey Today</h3>
+                            <p>Our AI guide can provide you with the information and resources needed to get started with emerging technologies. With our guide, you’ll be able to gain a better understanding of the latest technologies, find the right courses to help you gain the skills and knowledge needed, and start your journey on mastering these revolutionary new technologies. Get started today!</p>
+                        </div>
+                        <img src="imgs/startyourjourneytoday.jpg" class="img-side">
+                    </div>
+                    <a href="#" target="_blank" class="chatnow btn-bot">Chat Now</a>
+                </div>
+                <div class="main-container main-top howitsmade">
+                    <h1 id="Howitsmade">How it's made</h1>
+                    <div class="text-card text-card-him">
+                        <h3>IBM Watson</h3>
+                        <div class="grid-container-1">
+                            <div class="grid-item">
+                                <h4>Conversation Flow</h4>
+                                <p>Chatbot conversation flow is the backbone of any successful chatbot interaction. In order to provide a seamless experience to users, chatbots must be programmed to lead conversations and ask relevant questions. <br><br> We used tool x to create a guide to script out an expected conversation flow with the user. The aim was to create a well-structured conversation flow ensures that users are engaged and their needs are met.</p>
+                            </div>
+                            <div class="grid-item">
+                                <h4>Excepted Responses</h4>
+                                <p>The chatbot has not only been programmed to answer specific questions but also to understand the flow of conversation and anticipating the responses of both the user. By mapping out the conversation flow and possible user responses, we have been able to plan for the chatbot's ability to deliver consistent, relevant answers. This means that users get the information they need without getting stuck in a loop of unhelpful responses. By providing the chatbot with the appropriate answers to use, the conversation stays on track and that the user leaves feeling satisfied.</p>
+                            </div>
+                            <div class="grid-item">
+                                <h4>Chatbot Design</h4>
+                                <p>Chatbot design plays a critical role in facilitating user interaction, ensuring that users can easily navigate and engage with chatbots. Our team understood the importance of user-centric design and the need to create custom designs that align with users' needs. Our chatbot design is focused on providing users with an intuitive interface that enables them to interact with chatbots easily. We prioritize design elements that facilitate easy navigation, the ability to quickly start a conversation, and an aesthetically pleasing visual interface.</p>
+                            </div>
+                        </div>
+                        <h3>IBM NodeRED</h3>
+                        <div class="grid-container-2">
+                            <div class="grid-item">
+                                <h4>Watson Integration</h4>
+                                <p>Integrating IBM's Watson AI into NodeRED enables the chatbot to utilize powerful features such as speech-to-text, data collection and analysis,custom chatbot designs, and natural language processing. This allows us to tailor the user and empowers the chatbot with additonal features it wouldn't normally have giving the user the best experience possible and streamline the process of developing the chatbot to have everything join all in once place.</p>
+                            </div>
+                            <div class="grid-item">
+                                <h4>External API Integration</h4>
+                                <p>Integrating external APIs with NodeRED provides access to valuable and up-to-date information. The chatbot therefore becomes an even more exceptional tool for understanding and utilising relevant data. By connecting the two, the team has empowered the chatbot to relay information that is always current. This enhance the user experience and strengthens the overall capabilities of the chatbot.</p>
+                            </div>
+                            <div class="grid-item">
+                                <h4>SkillsBuild Web Scrapping</h4>
+                                <p>Web scrapping is a simple yet effective crawling tool. It relies on extracting data from specific course pages, ensuring that we have instant access to any changes on the platform. By leveraging this technology for the development of the chatbot we have been able to offer our users a better experience, delivering up-to-date information that's critical for their ongoing professional development.</p>
+                            </div>
+                            <div class="grid-item">
+                                <h4>User Conversation History</h4>
+                                <p>The conversation history has been programmed to allow users return to a conversation without any backtracking. This feature stores information such as current skill level and badges earned, which allows for a more personalised conversation. The chatbot creates unique IDs for each user, linking them to their conversation information so that they can return to the discussion at a later date providing a seamless user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-container main-top">
+                    <h1 id="#Links">Links</h1>
+                    <div class="text-card"></div>
+                </div>
+            </section>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
